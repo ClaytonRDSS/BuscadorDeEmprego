@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "sequelize": "^6.37.5",
+    "sqlite": "^5.1.1"
+  },
+  "name": "buscadordeemprego",
+  "version": "1.0.0",
+  "description": "Este é um buscador dr vada de emprego para Programadores",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "author": "Clayton Roberto Silveira Santos (https://www.linkedin.com/in/clayton-roberto-dos-santos-120617111/)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
