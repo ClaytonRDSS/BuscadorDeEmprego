@@ -1,2 +1,2 @@
 # BuscadorDeEmprego
-Projeto Desenvolvido com Node.js e Express durante Curso de JavaScript
+Projeto Desenvolvido com Node.js, Express, Sequelize e SQlite
