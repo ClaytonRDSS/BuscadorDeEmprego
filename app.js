@@ -17,7 +17,7 @@ db.authenticate()
         console.log("Conectou ao Banco!");
     })
     .catch(err => {
-       console.log("Ocorreu um erro ao conectar!", err);
+        console.log("Ocorreu um erro ao conectar!", err);
     });
 
 
