@@ -1,25 +1,25 @@
-const Sequelise = require('sequelise');
+const Sequelize = require('sequelize');
 const db = require('../db/connection');
 
-const Job = db.define('Job', {
+const Job = db.define('job', {
     title: {
-        type: Sequelise.STRING,
+        type: Sequelize.STRING,
     }, 
     description: {
-        type: Sequelise.STRING,
+        type: Sequelize.STRING,
     },
-    Salário: {
-        type: Sequelise.STRING,
+    salary: {
+        type: Sequelize.STRING,
     },
-    resa: {
-        type: Sequelise.STRING,
+    company: {
+        type: Sequelize.STRING,
     },
     email: {
-        type: Sequelise.STRING,
+        type: Sequelize.STRING,
     },
-    new: {
-        type: Sequelise.INTERGE,
-    },
+    new_job: {
+        type: Sequelize.INTEGER,
+    }
 
 });
 
